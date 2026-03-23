@@ -1,20 +1,62 @@
-# Sales
-Sale description
-# 🚀 End-to-End ETL Pipeline Project
+🚀 End-to-End Sales Data Pipeline
 
-## 📌 Overview
-This project demonstrates a simple ETL pipeline using Python and SQL.
+📌 Project Overview
 
-## ⚙️ Tech Stack
+This project demonstrates a complete ETL (Extract, Transform, Load) pipeline built using Python and SQL.
+
+It simulates a real-world data engineering workflow where raw sales data is processed into meaningful insights.
+
+---
+
+⚙️ Tech Stack
+
 - Python (Pandas)
-- SQLite
-- SQL
+- SQL (SQLite)
+- Apache Airflow (for scheduling)
+- GitHub (version control)
 
-## 🔄 Pipeline Flow
-1. Extract data from CSV
-2. Transform data (cleaning + revenue calculation)
-3. Load into SQLite database
+---
 
-## ▶️ How to Run
-```bash
-python etl/etl_pipeline.py
+🔄 Data Pipeline Architecture
+
+CSV Data → Python ETL → SQLite DB → SQL Analysis
+
+---
+
+📊 Key Features
+
+- Data cleaning and transformation
+- Revenue calculation logic
+- SQL-based analytics
+- Modular pipeline structure
+
+---
+
+📁 Project Structure
+
+data/        → Raw dataset
+etl/         → ETL pipeline code
+sql/         → SQL queries
+airflow/     → DAG for scheduling
+
+---
+
+📈 Sample Insights
+
+- Top-selling products
+- Region-wise revenue
+- Monthly sales trends
+
+---
+
+💡 Use Case
+
+This project simulates how companies process sales data to generate business insights.
+
+---
+
+🚀 Future Improvements
+
+- Integration with AWS S3
+- Real-time streaming using Kafka
+- Dashboard using Power BI
