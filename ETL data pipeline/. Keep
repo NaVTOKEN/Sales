@@ -1,5 +1,0 @@
-data/sales_data.csv
-etl/etl_pipeline.py
-airflow/dag_pipeline.py
-sql/analysis_queries.sql
-README.md
